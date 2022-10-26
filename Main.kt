@@ -122,8 +122,7 @@ fun show() {
 
     val encodedPassword = encodedPasswordStr.joinToString("")
 
-//    getting sized password
-
+    //getting sized password
     val finalPassword = getSizedPassword(encryptedMessageFromImage, encodedPassword)
 
     //decrypting message with password
